@@ -1,0 +1,7 @@
+Fields {*}
+Tables {SRRC_GPS_Road_CL}
+Where {Str$(ObjectInfo(obj, 21)) > "1"}
+Group {}
+Order {}
+Into {Course}
+Browse

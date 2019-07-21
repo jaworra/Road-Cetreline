@@ -1,0 +1,41 @@
+
+'Programmer:
+  John Worrall
+
+Version:
+  1.0
+
+Last Update:
+   10/01/2013
+  
+Description:
+  Reads a dat file report on cooridnates of nodes along a line,
+  calculates a users intervale nodes (same road)
+  and assigns chainages. 
+  User must input the correct dat format for the program to work
+  i.e Easting, Northing, *Distance(NotRequired), Name.
+  448078.392,6911980.887,2399.000,Moorang La
+  
+  Output dat file is in the formatt Name, CH, Easting, Northing.
+  Hall St,0,473471.486,6926651.99
+  
+  NOTE: assumes point in input file have no header, and node 
+  points are in order.
+
+
+Instruction:
+  To run GPSTripMetre_Interval.py (Python File), ensure you 
+  have a python installed. 
+
+
+Either lauch from cmd prompt:
+  
+Go to the command line on your OS.
+At the command prompt type
+
+ C:\Python27\Python.exe C:\Temp\Test.py
+ Python C:\Temp\Test.py
+ Python Test.py
+
+OR run from a IDLE (python GUI)
+

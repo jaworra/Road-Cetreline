@@ -1,0 +1,12 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 5
+    Id Decimal (6, 0) ;
+    Road_Name Char (50) ;
+    Pave_Type Char (50) ;
+    Locality Char (50) ;
+    TDIST_max Decimal (6, 0) ;

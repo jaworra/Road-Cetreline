@@ -1,0 +1,9 @@
+Variable 
+camelCase
+
+Methods/Function/Subroutines/Algorithms
+First letter of each work in upper case - ReportLog ()
+
+Release Standards
+version updates - Alphabetical character following Name - GPSTripMetre_A
+Function Release - updates with numerics - GPSTripmetre_Ver1
